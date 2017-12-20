@@ -1,0 +1,22 @@
+.txt{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    line-height: 1.8;
+}
+@media screen and (max-width:767px){
+    .product-item{min-height: 100vh} 
+    .pic{padding:30px 0;} 
+    .product-item h2{
+    text-align: center;}
+}
+/*以上說明: 螢幕轉為手機最大寬度767像素，product-item最小高度100，pic圖片內距上下30像素，文案標題h2置中。*/
+.product-item:nth-child(1){ background: #fff; }
+.product-item:nth-child(2){ background: #e23130; color: #fff;}
+.product-item:nth-child(3){ background: #fff; }
+.product-item:nth-child(4){ background: #000; color: #fff; }
